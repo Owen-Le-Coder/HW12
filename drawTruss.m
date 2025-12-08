@@ -21,7 +21,7 @@
 %  Lily Wilkerson (wilke541@umn.edu)
 %  Evan Stearns (stear149@umn.edu)
 %
-% Version: Nov. 19, 2025
+% Version: Dec. 8, 2025
 %==========================================================================
 function drawTruss(G, C, T, titlestr, radius, fontsize)
 
@@ -67,7 +67,8 @@ function drawTruss(G, C, T, titlestr, radius, fontsize)
             'FontSize', fontsize, ...
             'Rotation', angle, ...
             'HorizontalAlignment', 'center', ...
-            'VerticalAlignment', 'bottom','Color',colorText);
+            'VerticalAlignment', 'middle','Color',colorText,...
+            'BackgroundColor', 'w', 'EdgeColor', colorText);
         title(titlestr);
 
 
